@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>GIT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<script>
+			function load(card)
+			{
+
+				document.getElementById("contenido").innerHTML='<object type="text/html" data='+card+' style="width: 100%;height: 100%;"></object>';
+			}
+		</script>
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Poke Team</strong> Capacitación git</a>
+									</header>
+
+						</div>
+									<div id="contenido"  style="width: 100%;height:100%; position:relative; width:100%;">
+									</div>
+
+					</div>
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="#" onclick="javascript:load('cards/indexcard.html')">User 1</a></li>
+										<li><a href="#" onclick="javascript:load('')">User1</a></li>
+										<li><a href="#">User2</a></li>
+										<li><a href="#">User3</a></li>
+										<li><a href="#">User4</a></li>
+									</ul>
+								</nav>
+							<!-- Footer -->
+								<footer id="footer">
+								</footer>
+						</div>
+					</div>
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
